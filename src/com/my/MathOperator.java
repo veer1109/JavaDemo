@@ -17,6 +17,8 @@ public class MathOperator {
 
         int result3= ValA/ValC * ValD + ValB;
 
+        int result4= ValA/(ValC * (ValD + ValB));
         System.out.println(result3);
+        System.out.println(result4);
     }
 }
