@@ -13,6 +13,9 @@ public class CheckWebSiteStatus {
             HttpsURLConnection conn = (HttpsURLConnection) myUrl.openConnection();
 
             conn.setRequestMethod("GET");
+
+
+
             conn.connect();
             int code = conn.getResponseCode();
 
